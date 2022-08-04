@@ -1,0 +1,192 @@
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+    --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu Helvetica",
+        "Arial", sans-serif;
+
+}
+
+
+.data {
+    margin: 10px 0 0 -35px;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+.articulos {
+    text-align: center;
+    float: left;
+    width: 28%;
+    margin: 70px 0 0 -268px;
+
+}
+
+#articulos1 {
+    text-align: center;
+    float: left;
+    background-color: antiquewhite;
+    width: 30%;
+    margin: -16px 0 -9px -6%;
+}
+
+#foto {
+    text-align: center;
+    width: 60%;
+    margin: 18% 0 26% -6%;
+}
+
+#perfil {
+    margin: 0 0 15px 3%;
+}
+
+
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+/* *{outline: 1px solid red;}*/
+body {
+    font-family: var(--font);
+    color: var(--nord1);
+}
+
+#resaltar {
+    background-color: var(--nord8);
+    margin: 0 -1px 0 -1px;
+}
+
+#resaltar1 {
+    background-color: var(--nord8);
+    margin: 0 -40px 10px 11px;
+}
+
+header {
+    background-color: var(--nord8);
+    color: var(--nord6);
+    padding-top: 16px;
+    padding-left: 66px;
+}
+
+ul {
+    list-style-type: '';
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--nord6);
+    font-weight: bold;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.der {
+    margin: 4px 1px 0 -10px;
+
+}
+
+.der1 {
+    margin: 10px 11px 0 25px;
+
+}
+
+.der2 {
+    margin: 10px 1px 0 40px;
+
+}
+
+.der3 {
+    margin: 10px 11px 0 3px;
+
+}
+
+.der4 {
+    margin: 10px 11px 0 53px;
+
+}
+
+.der5 {
+    margin: 10px 1px 0 25px;
+
+}
+
+.der6 {
+    margin: 10px 1px 0 35px;
+
+}
+
+.der7 {
+    margin: 10px 1px 0 38px;
+
+}
+
+.der8 {
+    margin: 10px 1px 0 18px;
+
+}
+
+.der9 {
+    margin: 10px 1px 0 1px;
+
+}
+
+.der10 {
+    margin: 10px 1px 0 1px;
+
+}
+
+.justify-content-center {
+    margin: 0 100px 10px 100px;
+}
+
+.secundario {
+    margin: 40px;
+    text-indent: 1em;
+    float: right;
+    width: 60%;
+
+}
+
+#secundario1 {
+    margin: 12px 0 30px 63px;
+    text-indent: 1em;
+    float: right;
+    width: 90%;
+
+}
+
+/**#pie {
+    clear: both;
+    background-color: var(--nord8);
+    padding: 15px;
+    margin: 0 -91px 0 -340px;
+}*/
